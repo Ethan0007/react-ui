@@ -1,6 +1,6 @@
 import React from 'react'
 import Stars from 'react-native-stars'
-import Icon from '../ui/Icon'
+import Icon from './Icon'
 
 export default props => (
   <Stars
