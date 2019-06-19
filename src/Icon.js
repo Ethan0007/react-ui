@@ -22,7 +22,11 @@ export default class Icon extends Component {
       default: IconSet = StyledMaterialIcon; break
     }
     return (
-      <IconSet textAlign="center" size={28} color="#333" {...this.props} />
+      <IconSet
+        textAlign="center"
+        size={28}
+        color={props.focused ? props.focusedColor : '#333'}
+        {...this.props} />
     )
   }
 }
