@@ -11,7 +11,7 @@ export default class IconButton extends Component {
           <Icon
             name={this.props.name}
             size={this.props.size || 28}
-            color={this.props.color || '#333'}
+            color={this.props.color || 'black.3'}
           />
         </BorderBox>
       </Touchable>
