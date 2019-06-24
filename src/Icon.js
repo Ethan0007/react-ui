@@ -7,6 +7,7 @@ import MaterialIcons from 'react-native-vector-icons/MaterialIcons'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
 import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons'
 import Foundation from 'react-native-vector-icons/Foundation'
+import FontAwesome from 'react-native-vector-icons/FontAwesome'
 
 const props = [compose(color, textAlign, space)]
 
@@ -14,6 +15,7 @@ const StyledSimpleLineIcons = styled(SimpleLineIcons).apply(null, props)
 const StyledFoundation = styled(Foundation).apply(null, props)
 const StyledMaterialIcons = styled(MaterialIcons).apply(null, props)
 const StyledMaterialCommunityIcons = styled(MaterialCommunityIcons).apply(null, props)
+const StyledFontAwesome = styled(FontAwesome).apply(null, props)
 
 class Icon extends Component {
   render() {
@@ -22,6 +24,7 @@ class Icon extends Component {
       case 'SimpleLineIcons': IconSet = StyledSimpleLineIcons; break
       case 'Foundation': IconSet = StyledFoundation; break
       case 'MaterialCommunityIcons': IconSet = StyledMaterialCommunityIcons; break
+      case 'FontAwesome': IconSet = StyledFontAwesome; break
       default: IconSet = StyledMaterialIcons; break
     }
     return (
