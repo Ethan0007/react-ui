@@ -13,6 +13,7 @@ import {
 // const shadowOffset = style({ prop: 'shadowOffset' })
 // const shadowOpacity = style({ prop: 'shadowOpacity' })
 // const shadowRadius = style({ prop: 'shadowRadius' })
+const textAlignVertical = style({ prop: 'textAlignVertical' })
 
 const StyledTextInput = styled.TextInput(
   // Default props
@@ -25,6 +26,7 @@ const StyledTextInput = styled.TextInput(
   width,
   fontWeight,
   fontSize,
+  textAlignVertical
 )
 
 export default StyledTextInput
