@@ -13,11 +13,14 @@ export default function (props) {
         borderRadius={4}
         shadow={1}
         {...props}>
-        <Text
-          fontSize={props.textSize || 2}
-          color={props.textColor || 'white.0'}>
-          {props.children}
-        </Text>
+        <FlexBox alignItems="center" justifyContent="center">
+          {props.icon}
+          <Text
+            fontSize={props.textSize || 2}
+            color={props.textColor || 'white.0'}>
+            {props.children}
+          </Text>
+        </FlexBox>
       </BorderBox>
     </Touchable>
   )
