@@ -2,6 +2,7 @@ import React from 'react'
 import Text from '../Text'
 import Touchable from '../Touchable'
 import BorderBox from '../box/BorderBox'
+import FlexBox from '../box/FlexBox'
 
 export default function (props) {
   return (
