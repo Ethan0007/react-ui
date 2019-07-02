@@ -18,7 +18,7 @@ const textAlignVertical = style({ prop: 'textAlignVertical' })
 
 const StyledTextInput = styled.TextInput(
   // Default props
-  { py: 4 },
+  {},
   // Available props
   color,
   space,
@@ -30,4 +30,6 @@ const StyledTextInput = styled.TextInput(
   textAlignVertical
 )
 
-export default StyledTextInput
+export default function (props) {
+  return <StyledTextInput py={2} {...props} />
+}
