@@ -18,7 +18,7 @@ const textAlignVertical = style({ prop: 'textAlignVertical' })
 
 const StyledTextInput = styled.TextInput(
   // Default props
-  {},
+  { py: 4 },
   // Available props
   color,
   space,
