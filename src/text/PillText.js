@@ -15,6 +15,7 @@ export default class PillText extends Component {
         <Text
           color="#eee"
           {...this.props}
+          numberOfLines={1}
           bg={undefined}
         >
           {this.props.children}
