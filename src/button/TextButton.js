@@ -18,6 +18,7 @@ export default function (props) {
           {props.icon}
           <Text
             fontSize={props.textSize || 2}
+            fontWeight={props.fontWeight || "normal"}
             color={props.textColor || 'white.0'}>
             {props.children}
           </Text>
