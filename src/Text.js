@@ -9,7 +9,10 @@ import {
   fontSize,
   alignSelf,
   space,
+  fontStyle
 } from 'styled-system'
+
+const textDecorationLine = style({ prop: 'textDecorationLine' })
 
 const StyledText = styled.Text(
   {},
@@ -21,7 +24,9 @@ const StyledText = styled.Text(
   textAlign,
   lineHeight,
   letterSpacing,
-  alignSelf
+  alignSelf,
+  textDecorationLine,
+  fontStyle
 )
 
 export default StyledText
