@@ -34,6 +34,11 @@ import CircleImage from './image/CircleImage'
 // Inputs
 import TextInput from './input/TextInput'
 
+// Other
+import Picker from './picker/Picker'
+import ListPicker from './picker/ListPicker'
+import Tab from './tab/Tab'
+import TabItem from './tab/TabItem'
 
 const LocalAnimated = {
   Native: Animated,
@@ -43,13 +48,11 @@ const LocalAnimated = {
 }
 
 export {
-  withTheme,
-  themeGet,
-  Spinner,
   // Others
   Stars,
   Icon,
   Touchable,
+
   // Boxes
   LayoutBox as View,
   LayoutBox,
@@ -61,6 +64,7 @@ export {
   BorderBox,
   ImageBox,
   CircleBox,
+
   // Texts
   Heading,
   Text as TextBox,
@@ -68,14 +72,27 @@ export {
   PillText,
   PillBorderText,
   PillFillText,
+
   // Buttons
   IconButton,
   TextButton,
+
   // Images
   Image,
   CircleImage,
+
   // Animated
   LocalAnimated as Animated,
+
   // Input
-  TextInput
+  TextInput,
+
+  // Others
+  Spinner,
+  Tab,
+  TabItem,
+  Picker,
+  ListPicker,
+  themeGet,
+  withTheme
 }
