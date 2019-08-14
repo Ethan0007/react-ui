@@ -41,6 +41,7 @@ const styleGrid = compose(
   height
 )
 
+const Grid = styled(BaseGrid)(styleGrid)
 const Col = styled(BaseCol)(styleGrid)
 const Row = styled(BaseRow)(styleGrid)
 
@@ -51,7 +52,7 @@ const Button = styled(BaseButton)(styleView)
 
 export {
   // Layout
-  BaseGrid as Grid,
+  Grid,
   Col,
   Row,
   // Components
