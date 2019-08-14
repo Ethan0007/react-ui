@@ -31,7 +31,6 @@ const Text = styled(BaseText)(styleText)
 const Icon = styled(BaseIcon)(styleText)
 const Button = styled(BaseButton)(styleView)
 
-export * from 'native-base'
 export {
   View,
   Text,
