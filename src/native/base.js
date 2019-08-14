@@ -3,7 +3,9 @@ import {
   compose,
   space,
   color,
-  borders
+  borders,
+  width,
+  height
 } from 'styled-system'
 
 import {
@@ -47,16 +49,13 @@ const Icon = styled(BaseIcon)(styleText)
 const Button = styled(BaseButton)(styleBox)
 
 export default {
-
   // Layout
   Grid,
   Col,
   Row,
-
   // Components
   View,
   Text,
   Icon,
   Button
-
 }

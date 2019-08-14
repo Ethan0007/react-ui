@@ -1,4 +1,17 @@
 import { View } from './base'
+import {
+  compose,
+  style,
+  flexDirection,
+  alignItems,
+  alignContent,
+  justifyContent,
+  flexWrap,
+  width,
+  order,
+  alignSelf,
+  flexBasis
+} from 'styled-system'
 
 const Flex = styled(View)(
   compose(
@@ -32,8 +45,6 @@ const Box = styled(View)(
 )
 
 export default {
-
   Flex,
   Box
-
 }
