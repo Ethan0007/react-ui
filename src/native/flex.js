@@ -45,7 +45,7 @@ const Box = styled(View)(
   )
 )
 
-export default {
+export {
   Flex,
   Box
 }

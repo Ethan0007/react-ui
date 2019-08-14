@@ -48,7 +48,7 @@ const Text = styled(BaseText)(styleText)
 const Icon = styled(BaseIcon)(styleText)
 const Button = styled(BaseButton)(styleBox)
 
-export default {
+export {
   // Layout
   Grid,
   Col,
