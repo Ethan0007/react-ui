@@ -7,12 +7,7 @@ import {
   height
 } from 'styled-system'
 
-import {
-  View as BaseView,
-  Text as BaseText,
-  Icon as BaseIcon,
-  Button as BaseButton,
-} from 'native-base'
+import * as Base from 'native-base'
 
 const styleText = compose(
   space,
@@ -26,11 +21,12 @@ const styleView = compose(
   height
 )
 
-const View = styled(BaseView)(styleView)
-const Text = styled(BaseText)(styleText)
-const Icon = styled(BaseIcon)(styleText)
-const Button = styled(BaseButton)(styleView)
+const View = styled(Base.View)(styleView)
+const Text = styled(Base.Text)(styleText)
+const Icon = styled(Base.Icon)(styleText)
+const Button = styled(Base.Button)(styleView)
 
+export * from Base
 export {
   View,
   Text,
