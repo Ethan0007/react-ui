@@ -26,7 +26,7 @@ const styleText = compose(
   color
 )
 
-const styleBox = compose(
+const styleView = compose(
   space,
   color,
   borders,
@@ -35,22 +35,23 @@ const styleBox = compose(
 
 const styleGrid = compose(
   space,
+  color,
+  borders,
   width,
   height
 )
 
-const Grid = styled(BaseGrid)(styleGrid)
 const Col = styled(BaseCol)(styleGrid)
 const Row = styled(BaseRow)(styleGrid)
 
-const View = styled(BaseView)(styleBox)
+const View = styled(BaseView)(styleView)
 const Text = styled(BaseText)(styleText)
 const Icon = styled(BaseIcon)(styleText)
-const Button = styled(BaseButton)(styleBox)
+const Button = styled(BaseButton)(styleView)
 
 export {
   // Layout
-  Grid,
+  BaseGrid as Grid,
   Col,
   Row,
   // Components
