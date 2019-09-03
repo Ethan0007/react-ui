@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rhaldkhein/react-ui/issues"
   },
-  "homepage": "https://github.com/rhaldkhein/react-ui#readme"
+  "homepage": "https://github.com/rhaldkhein/react-ui#readme",
+  "dependencies": {
+    "styled-system": "^4.2.3"
+  }
 }
